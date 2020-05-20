@@ -6,15 +6,21 @@ nav {
   
   .route {
     text-decoration: none;
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 2vh;
+    color: #000000;
+    font-size: calc(12px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
     cursor: pointer;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
   }
 
   .route:hover {
-    color: #136613; 
+    color: #136613;
+  }
+
+  .vertical {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .padded {
+    margin: 3pt;
   }
 }
