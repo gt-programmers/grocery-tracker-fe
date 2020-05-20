@@ -8,9 +8,13 @@ nav {
     text-decoration: none;
     color: #ffffff;
     font-weight: bold;
-    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    font-size: 2vh;
     cursor: pointer;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+  }
+
+  .route:hover {
+    color: #136613; 
   }
 }
