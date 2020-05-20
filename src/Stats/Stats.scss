@@ -1,0 +1,7 @@
+.stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  font-size: calc(12px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}

@@ -3,9 +3,9 @@ import './Stats.scss';
 
 const Stats = () => {
   return (
-    <section>
-      <h3>Welcome, User!</h3>
-      <p>Update your inventory and see your stats.</p>
+    <section className="stats">
+      <h2>Welcome, User!</h2>
+      <h3>Update your inventory and see your stats.</h3>
     </section>
   )
 }
