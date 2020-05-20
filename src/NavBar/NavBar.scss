@@ -1,0 +1,16 @@
+nav {
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-around;
+  background-color: #18bf18;
+  
+  .route {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    cursor: pointer;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+  }
+}
