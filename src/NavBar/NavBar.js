@@ -11,34 +11,30 @@ const NavBar = () => {
   return (
     <>
       <nav>
-      <div className="vertical point">
+        <div className="vertical point">
           <img alt="statistics" src={userIcon} />
-        <NavLink to={"/profile"} className="route">
-          Profile
-        </NavLink>
+          <NavLink to={"/profile"} className="route">
+            Profile
+          </NavLink>
         </div>
-
         <div className="vertical point">
           <img alt="statistics" src={groceryIcon} />
-        <NavLink to={"/grocery_list"} className="route">
-          Grocery List
-        </NavLink>
+          <NavLink to={"/grocery_list"} className="route">
+            Grocery List
+          </NavLink>
         </div>
-
         <div className="vertical point">
           <img alt="statistics" src={inventoryIcon} />
           <NavLink to={"/inventory"} className="route">
             Inventory
           </NavLink>
         </div>
-
         <div className="vertical point">
           <img alt="statistics" src={recipesIcon} />
           <NavLink to={"/recipes"} className="route">
             Recipes
           </NavLink>
         </div>
-
         <div className="vertical point">
           <img alt="statistics" src={statsIcon} />
           <NavLink to={"/stats"} className="route">
