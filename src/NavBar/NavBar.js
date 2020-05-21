@@ -12,31 +12,31 @@ const NavBar = () => {
     <>
       <nav>
         <div className="vertical point">
-          <img alt="statistics" src={userIcon} />
+          <img alt="" src={userIcon} />
           <NavLink to={"/profile"} className="route">
             Profile
           </NavLink>
         </div>
         <div className="vertical point">
-          <img alt="statistics" src={groceryIcon} />
+          <img alt="" src={groceryIcon} />
           <NavLink to={"/grocery_list"} className="route">
             Grocery List
           </NavLink>
         </div>
         <div className="vertical point">
-          <img alt="statistics" src={inventoryIcon} />
+          <img alt="" src={inventoryIcon} />
           <NavLink to={"/inventory"} className="route">
             Inventory
           </NavLink>
         </div>
         <div className="vertical point">
-          <img alt="statistics" src={recipesIcon} />
+          <img alt="" src={recipesIcon} />
           <NavLink to={"/recipes"} className="route">
             Recipes
           </NavLink>
         </div>
         <div className="vertical point">
-          <img alt="statistics" src={statsIcon} />
+          <img alt="" src={statsIcon} />
           <NavLink to={"/stats"} className="route">
             Stats
           </NavLink>
