@@ -3,7 +3,7 @@ import './Inventory.scss';
 
 const Inventory = () => {
   return (
-    <section className="inventory">
+    <section className="inventory page">
       <p>Inventory</p>
     </section>
   )

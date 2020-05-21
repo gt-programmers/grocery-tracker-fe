@@ -3,7 +3,7 @@ import './Recipes.scss';
 
 const Recipes = () => {
   return (
-    <section className="recipes">
+    <section className="recipes page">
       <p>Recipes</p>
     </section>
   )
