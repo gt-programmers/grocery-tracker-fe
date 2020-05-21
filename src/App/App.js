@@ -6,8 +6,8 @@ import Stats from "../Stats/Stats";
 function App() {
   return (
     <div className="App">
-      <NavBar />
       <Stats />
+      <NavBar />
     </div>
   );
 }
