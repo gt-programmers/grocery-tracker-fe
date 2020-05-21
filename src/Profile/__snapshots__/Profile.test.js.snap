@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile should match the snapshot 1`] = `
+<section
+  className="profile page"
+>
+  <p>
+    Profile
+  </p>
+</section>
+`;
