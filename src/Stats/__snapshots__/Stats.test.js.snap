@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Stats should match the snapshot 1`] = `
+<section
+  className="stats"
+>
+  <h2>
+    Welcome, User!
+  </h2>
+  <h3>
+    Update your inventory and see your stats.
+  </h3>
+</section>
+`;
