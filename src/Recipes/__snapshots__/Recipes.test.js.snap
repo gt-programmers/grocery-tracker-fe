@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Recipes should match the snapshot 1`] = `
+<section
+  className="recipes page"
+>
+  <p>
+    Recipes
+  </p>
+</section>
+`;

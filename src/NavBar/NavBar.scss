@@ -1,0 +1,26 @@
+nav {
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-around;
+  background-color: #18bf18;
+  padding: 5pt;
+  
+  .route {
+    text-decoration: none;
+    color: #000000;
+    font-size: calc(12px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  }
+  
+  .route:hover {
+    color: #136613;
+  }
+  
+  .vertical {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .point {
+    cursor: pointer;
+  }
+}
