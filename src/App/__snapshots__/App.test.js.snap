@@ -4,7 +4,36 @@ exports[`App should match the snapshot 1`] = `
 <div
   className="App"
 >
-  <Stats />
+  <Route
+    exact={true}
+    path="/profile"
+    render={[Function]}
+  />
+  <Route
+    exact={true}
+    path="/recipes"
+    render={[Function]}
+  />
+  <Route
+    exact={true}
+    path="/grocery_list"
+    render={[Function]}
+  />
+  <Route
+    exact={true}
+    path="/inventory"
+    render={[Function]}
+  />
+  <Route
+    exact={true}
+    path="/stats"
+    render={[Function]}
+  />
+  <Route
+    exact={true}
+    path="/"
+    render={[Function]}
+  />
   <NavBar />
 </div>
 `;

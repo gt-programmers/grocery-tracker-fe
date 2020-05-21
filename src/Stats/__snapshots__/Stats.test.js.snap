@@ -2,7 +2,7 @@
 
 exports[`Stats should match the snapshot 1`] = `
 <section
-  className="stats"
+  className="stats page"
 >
   <h2>
     Welcome, User!
